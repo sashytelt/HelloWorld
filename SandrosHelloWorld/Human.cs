@@ -4,7 +4,7 @@ namespace SandrosHelloWorld
 {
     public class Human
     {
-        private readonly string _name;
+        public readonly string Name;
         private int _age;
 
         private int _liquidDrinked;
@@ -12,7 +12,7 @@ namespace SandrosHelloWorld
 
         public Human(string name, int age)
         {
-            _name = name;
+            Name = name;
             _age = age;
 
             _liquidDrinked = 0;
@@ -20,7 +20,7 @@ namespace SandrosHelloWorld
 
         public void Drink(Bottle bottleToDrinkFrom, int amount)
         {
-            Console.Out.WriteLine("I'm {0}, and im about to drink {1}", _name, bottleToDrinkFrom.DrinkName);
+            Console.Out.WriteLine("I'm {0}, and im about to drink {1}", Name, bottleToDrinkFrom.DrinkName);
 
             if (bottleToDrinkFrom.Drink(amount))
             {

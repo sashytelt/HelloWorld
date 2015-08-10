@@ -4,6 +4,7 @@ namespace SandrosHelloWorld
 {
     public class Bottle
     {
+
         private int _liquidAmount;
         public readonly string DrinkName;
 
