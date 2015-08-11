@@ -47,7 +47,10 @@
     <Compile Include="Animals\Cat.cs" />
     <Compile Include="Animals\Dog.cs" />
     <Compile Include="Bottle.cs" />
+    <Compile Include="TightBox.cs" />
     <Compile Include="Human.cs" />
+    <Compile Include="IMovement.cs" />
+    <Compile Include="Pointers.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
